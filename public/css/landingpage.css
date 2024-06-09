@@ -1,0 +1,349 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fixed-text {
+  font-family: "Poppins";
+  position: absolute;
+  top: 80%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+.fixed-text h1 {
+  font-size: 68px;
+  margin: 0;
+  padding: 0;
+  word-spacing: 10px;
+  width: 80%;
+}
+
+.fixed-text p {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 5px;
+  word-spacing: 10px;
+  width: 80%;
+}
+
+.fixed-text button {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 50px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.fixed-text button:hover {
+  background-color: #ABD2EB;
+  color: #FFFFFF;
+  border-radius: 8px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel1 #carouselExampleSlidesOnly {
+  margin-top: 15px;
+  background-color: #000000;
+  margin-left: 82px;
+  width: 88%;
+}
+.carousel1 #carouselExampleSlidesOnly img {
+  height: 800px;
+  opacity: 0.7;
+}
+
+.new-arrivals {
+  font-family: "Poppins";
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ABD2EB;
+  padding-bottom: 40px; /* Added padding-bottom */
+  margin-bottom: 60px; /* Added margin-bottom to ensure space after this section */
+}
+
+.new-arrivals h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.new-arrivals a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalogue .col-md-4 {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clothing-item {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.clothing-item img {
+  width: 100%;
+  max-height: 220px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.clothing-item h4 {
+  font-weight: 800;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.clothing-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+  color: #FFCC00;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+#details {
+  margin-top: 0px; /* Increased margin-top */
+  background-color: #FFFFFF;
+  font-family: "Poppins";
+  padding-left: 60px;
+  padding-right: 60px;
+  word-spacing: 4px;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.details-content h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.col-md-6 img {
+  height: 320px;
+  width: 100%;
+}
+
+#contact-us {
+  font-family: "Calibri";
+  font-weight: 500;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+#contact-us h2 {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.carousel2 {
+  text-align: center;
+  font-family: "Poppins";
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.carousel2 h2 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: #000000;
+  font-size: 48px;
+}
+.carousel2 .container-fluid {
+  background-color: #ABD2EB;
+  height: 450px;
+}
+.carousel2 img {
+  margin-top: 50px;
+  height: 350px;
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer {
+  padding-left: 50px;
+  padding-right: 60px;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+}
+footer h4 {
+  font-size: 20px;
+}
+footer .social-icons i {
+  cursor: pointer;
+  padding-right: 50px;
+}
+footer .m-0 {
+  font-weight: 500;
+}
+
+footer .img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Queries */
+/* Tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .catalogue .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/* Mobile devices */
+@media (max-width: 786px) {
+  .carousel1 #carouselExampleSlidesOnly {
+    padding-left: 0;
+    margin-top: 15px;
+    background-color: #000000;
+    margin-left: 40px;
+  }
+  .carousel1 #carouselExampleSlidesOnly img {
+    height: 400px;
+    opacity: 0.7;
+  }
+  .fixed-text {
+    top: 50%;
+    left: 40%;
+  }
+  .fixed-text h1 {
+    width: 80%;
+    font-size: 24px;
+  }
+  .fixed-text p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .fixed-text button {
+    margin-top: 50px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  .catalogue .col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .clothing-item img {
+    max-width: 200px; /* Adjust maximum image width */
+    border-radius: 6px; /* Adjust border radius */
+  }
+  .carousel2 .container-fluid {
+    background-color: #ABD2EB;
+    height: 300px;
+  }
+  .carousel2 img {
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/* Smaller mobile devices */
+@media (max-width: 480px) {
+  .carousel1 #carouselExampleSlidesOnly {
+    margin-top: 15px;
+    background-color: #000000;
+    margin-left: 32px;
+    width: 88%;
+  }
+  .carousel1 #carouselExampleSlidesOnly img {
+    height: 400px;
+    opacity: 0.7;
+  }
+  .fixed-text {
+    left: 50%;
+  }
+  .catalogue .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .clothing-item img {
+    max-width: 150px; /* Adjust maximum image width */
+    border-radius: 4px; /* Adjust border radius */
+  }
+  #details {
+    margin-top: 100px; /* Adjusted margin-top for small devices */
+    padding-bottom: 60px; /* Ensure adequate bottom padding */
+  }
+  .carousel2 .container-fluid {
+    background-color: #ABD2EB;
+    height: 300px;
+  }
+  .carousel2 img {
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}/*# sourceMappingURL=landingpage.css.map */

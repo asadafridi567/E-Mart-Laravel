@@ -1,0 +1,84 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins";
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container h2 {
+  font-weight: bold;
+  color: #000000;
+}
+
+.container img {
+  margin-top: 50px;
+  margin-bottom: 0;
+  height: 250px;
+}
+
+.container button {
+  margin-top: 5px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #ABD2EB;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.container button:hover {
+  background-color: #3E7FA8;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Existing code */
+/* Media query for screens smaller than 576px (Extra small devices) */
+@media (max-width: 575.98px) {
+  .container img {
+    margin-top: 20px; /* Reduce top margin for smaller screens */
+    height: 200px; /* Adjust image height for smaller screens */
+  }
+  .container button {
+    padding: 8px 30px; /* Adjust button padding for smaller screens */
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+/* Media query for screens between 576px and 991.98px (Small and medium devices) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .container img {
+    height: 220px; /* Adjust image height for small and medium screens */
+  }
+  .container button {
+    padding: 10px 40px; /* Revert button padding for small and medium screens */
+    font-size: 16px; /* Revert font size for small and medium screens */
+  }
+}
+/* Media query for screens larger than 992px (Large devices and up) */
+@media (min-width: 992px) {
+  .container img {
+    height: 250px; /* Adjust image height for larger screens */
+  }
+  .container button {
+    padding: 12px 50px; /* Adjust button padding for larger screens */
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
+}/*# sourceMappingURL=success.css.map */
